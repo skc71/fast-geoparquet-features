@@ -144,7 +144,7 @@ wheels = [
 ]
 
 [[package]]
-name = "fast-features"
+name = "fast-geoparquet-features"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
