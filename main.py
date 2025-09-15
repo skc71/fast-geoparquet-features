@@ -1,16 +1,16 @@
 import logging
 from collections.abc import Generator
 from contextlib import asynccontextmanager
-from typing import Annotated, Self
+from typing import Annotated
 
 import cql2
 import duckdb
 import orjson
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, status
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
 
-from enums import MediaType, OutputFormat
+from enums import MEDIA_TYPE_MAP, OutputFormat
+from models import BBox
 
 logger = logging.getLogger("uvicorn")
 
@@ -38,35 +38,6 @@ app = FastAPI(
 def duckdb_cursor(request: Request) -> duckdb.DuckDBPyConnection:
     """Returns a threadsafe cursor from the connection stored in app state."""
     return request.app.state.db.cursor()
-
-
-class BBox(BaseModel):
-    xmin: float
-    ymin: float
-    xmax: float
-    ymax: float
-
-    @classmethod
-    def from_str(cls, bbox: str) -> Self:
-        if len((coords := bbox.split(","))) != 4:
-            raise ValueError("bbox must be 4 comma-separated floats")
-        else:
-            try:
-                xmin, ymin, xmax, ymax = tuple((float(c.strip()) for c in coords))
-            except ValueError:
-                raise ValueError("all bbox values must be floats")
-
-        return cls(xmin=xmin, ymin=ymin, xmax=xmax, ymax=ymax)
-
-    def to_sql(self) -> str:
-        return " AND ".join(
-            [
-                f"bbox.xmax >= {self.xmin}",
-                f"bbox.xmin <= {self.xmax}",
-                f"bbox.ymax >= {self.ymin}",
-                f"bbox.ymin <= {self.ymax}",
-            ]
-        )
 
 
 def parse_bbox(bbox: str | None = None) -> BBox | None:
@@ -134,11 +105,10 @@ def stream_feature_collection(
 
 def stream_geojsonseq(feature_generator: Generator[bytes]) -> Generator[bytes]:
     for feat in feature_generator:
-        yield feat
-        yield b"\n"
+        yield feat + b"\n"
 
 
-async def stream_duckdb_geojson(
+async def stream_features(
     db: duckdb.DuckDBPyConnection,
     url: str,
     limit: int,
@@ -193,12 +163,6 @@ FROM read_parquet('{url}')
             yield chunk
 
 
-MEDIA_TYPE_MAP = {
-    OutputFormat.GEOJSON: MediaType.geojson,
-    OutputFormat.GEOJSONSEQ: MediaType.geojsonseq,
-}
-
-
 @app.get("/features")
 async def get_features(
     db: duckdb.DuckDBPyConnection = Depends(duckdb_cursor),
@@ -217,7 +181,7 @@ async def get_features(
     """Get Features"""
 
     return StreamingResponse(
-        stream_duckdb_geojson(
+        stream_features(
             db=db,
             url=url,
             limit=limit,

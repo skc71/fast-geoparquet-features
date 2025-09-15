@@ -4,21 +4,27 @@ from enum import Enum
 class MediaType(str, Enum):
     """Responses Media types formerly known as MIME types."""
 
-    xml = "application/xml"
-    json = "application/json"
-    ndjson = "application/ndjson"
-    geojson = "application/geo+json"
-    geojsonseq = "application/geo+json-seq"
-    schemajson = "application/schema+json"
-    html = "text/html"
-    text = "text/plain"
-    csv = "text/csv"
-    openapi30_json = "application/vnd.oai.openapi+json;version=3.0"
-    openapi30_yaml = "application/vnd.oai.openapi;version=3.0"
-    pbf = "application/x-protobuf"
-    mvt = "application/vnd.mapbox-vector-tile"
+    XML = "application/xml"
+    JSON = "application/json"
+    NDJSON = "application/ndjson"
+    GEOJSON = "application/geo+json"
+    GEOJSONSEQ = "application/geo+json-seq"
+    SCHEMAJSON = "application/schema+json"
+    HTML = "text/html"
+    TEXT = "text/plain"
+    CSV = "text/csv"
+    OPENAPI30_JSON = "application/vnd.oai.openapi+json;version=3.0"
+    OPENAPI30_YAML = "application/vnd.oai.openapi;version=3.0"
+    PBF = "application/x-protobuf"
+    MVT = "application/vnd.mapbox-vector-tile"
 
 
 class OutputFormat(str, Enum):
     GEOJSON = "geojson"
     GEOJSONSEQ = "geojsonseq"
+
+
+MEDIA_TYPE_MAP = {
+    OutputFormat.GEOJSON: MediaType.GEOJSON,
+    OutputFormat.GEOJSONSEQ: MediaType.GEOJSONSEQ,
+}
