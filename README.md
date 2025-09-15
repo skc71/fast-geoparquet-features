@@ -41,4 +41,16 @@ Here are some examples of querying Overture Foundation's Buildings dataset direc
     ```
 
     * [Result](./data/height-filter-demo.geojson)
+
         ![demo](./public/height-filter-demo.png)
+
+## Notes
+
+* Bounding box filtering requires GeoParquet created with bbox/covering metadata as described in [the v1.1.0 spec](https://geoparquet.org/releases/v1.1.0/)
+* Performance is best with [a spatially sorted GeoParquet](https://cloudnativegeo.org/blog/2025/01/using-duckdbs-hilbert-function-with-geoparquet/)
+* The first query of a large and/or partitioned GeoParquet will take significantly longer than subsequent queries due to the initial read of the Parquet metadata (which DuckDB caches for reuse). For example, the first query of the Overture Buildings dataset after a fresh start takes ~30s. After that, the same query takes ~4s.
+
+## TODOs
+
+* Pagination links in FeatureCollection response
+* Vector tile support. Just waiting on [`ST_AsMVT` support](https://github.com/duckdb/duckdb-spatial/issues/241) to be available in DuckDB spatial extension!
