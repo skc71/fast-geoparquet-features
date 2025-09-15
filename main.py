@@ -268,9 +268,13 @@ async def get_features(
     )
 
 
-@app.get("/metadata")
-def get_metadata(
-    url: str,
-    db: duckdb.DuckDBPyConnection = Depends(duckdb_cursor),
+@app.get("/features/count")
+def get_feature_count(
+    con: duckdb.DuckDBPyConnection = Depends(duckdb_cursor),
+    url: str = Query(),
+    filter: str | None = Query(None),
+    bbox: Annotated[BBox, str] | None = Depends(parse_bbox),
 ):
-    print(db.execute(f"DESCRIBE SELECT * FROM read_parquet('{url}');").fetchdf())
+    rel = base_rel(con=con, url=url, bbox=bbox, filter=filter)
+    total = get_count(rel)
+    return {"numberMatched": total}
