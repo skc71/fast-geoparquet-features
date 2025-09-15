@@ -1,7 +1,7 @@
 [project]
-name = "fast-features"
+name = "fast-geoparquet-features"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI-based GeoParquet Feature Server"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
