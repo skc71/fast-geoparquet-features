@@ -247,7 +247,7 @@ async def get_features(
     ),
     offset: int = Query(default=0, ge=0),
     geom_column: str = Query(default="geometry", alias="geom-column"),
-    filter: str | None = Query(None),
+    filter: str | None = Query(None, description="A CQL-Text filter statement"),
     bbox: Annotated[BBox, str] | None = Depends(parse_bbox),
     f: OutputFormat = OutputFormat.GEOJSON,
 ):
