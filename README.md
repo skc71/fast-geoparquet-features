@@ -54,3 +54,10 @@ Here are some examples of querying Overture Foundation's Buildings dataset direc
 
 * Pagination links in FeatureCollection response
 * Vector tile support. Just waiting on [`ST_AsMVT` support](https://github.com/duckdb/duckdb-spatial/issues/241) to be available in DuckDB spatial extension!
+
+## Acknowledgements
+
+This project was inspired by and benefits from some really cool open source projects including:
+
+* [tipg](https://developmentseed.org/tipg/)
+* [cql2-rs](https://developmentseed.org/cql2-rs/latest/)
