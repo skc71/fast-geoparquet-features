@@ -22,9 +22,13 @@ class MediaType(str, Enum):
 class OutputFormat(str, Enum):
     GEOJSON = "geojson"
     GEOJSONSEQ = "geojsonseq"
+    NDJSON = "ndjson"
+    CSV = "csv"
 
 
 MEDIA_TYPE_MAP = {
     OutputFormat.GEOJSON: MediaType.GEOJSON,
     OutputFormat.GEOJSONSEQ: MediaType.GEOJSONSEQ,
+    OutputFormat.NDJSON: MediaType.NDJSON,
+    OutputFormat.CSV: MediaType.CSV,
 }
