@@ -1,0 +1,3307 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9834971,
+              40.711453
+            ],
+            [
+              -73.9833966,
+              40.711404
+            ],
+            [
+              -73.9832774,
+              40.7115456
+            ],
+            [
+              -73.9833649,
+              40.7115882
+            ],
+            [
+              -73.9833045,
+              40.7116601
+            ],
+            [
+              -73.983396,
+              40.7117046
+            ],
+            [
+              -73.9833136,
+              40.7118026
+            ],
+            [
+              -73.9833993,
+              40.7118444
+            ],
+            [
+              -73.983341,
+              40.7119138
+            ],
+            [
+              -73.9834397,
+              40.7119619
+            ],
+            [
+              -73.9835542,
+              40.7118258
+            ],
+            [
+              -73.9834678,
+              40.7117837
+            ],
+            [
+              -73.9835301,
+              40.7117095
+            ],
+            [
+              -73.9834395,
+              40.7116654
+            ],
+            [
+              -73.9835207,
+              40.7115688
+            ],
+            [
+              -73.9834349,
+              40.711527
+            ],
+            [
+              -73.9834971,
+              40.711453
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "7b337f1b-5f7a-4bb8-9f77-c5da4cc32f7a",
+        "bbox": {
+          "xmin": -73.98356628417969,
+          "xmax": -73.9832763671875,
+          "ymin": 40.711402893066406,
+          "ymax": 40.71196365356445
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278268946@2",
+            "update_time": "2014-12-14T19:35:13.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9840428,
+              40.7120786
+            ],
+            [
+              -73.9838494,
+              40.712103
+            ],
+            [
+              -73.9838935,
+              40.7124349
+            ],
+            [
+              -73.9843746,
+              40.7123744
+            ],
+            [
+              -73.9843607,
+              40.7123103
+            ],
+            [
+              -73.9844015,
+              40.7123051
+            ],
+            [
+              -73.984396,
+              40.7122796
+            ],
+            [
+              -73.98436,
+              40.7122842
+            ],
+            [
+              -73.984346,
+              40.7122198
+            ],
+            [
+              -73.9842146,
+              40.7122364
+            ],
+            [
+              -73.9842221,
+              40.7122709
+            ],
+            [
+              -73.9841826,
+              40.7122758
+            ],
+            [
+              -73.9841885,
+              40.7123028
+            ],
+            [
+              -73.9840941,
+              40.7123147
+            ],
+            [
+              -73.9840428,
+              40.7120786
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "897be44c-5545-42b8-b8c2-36a726a31aba",
+        "bbox": {
+          "xmin": -73.98441314697266,
+          "xmax": -73.98384857177734,
+          "ymin": 40.71207809448242,
+          "ymax": 40.71243667602539
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267174@4",
+            "update_time": "2022-01-07T01:54:50.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "education",
+        "class": "school",
+        "height": 23.3,
+        "names": {
+          "primary": "University Neighborhood High School",
+          "common": null,
+          "rules": null
+        },
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": 5,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#DFD9C1",
+        "facade_material": null,
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9834428,
+              40.7125214
+            ],
+            [
+              -73.9835601,
+              40.7125119
+            ],
+            [
+              -73.9835471,
+              40.7124196
+            ],
+            [
+              -73.9836377,
+              40.7124122
+            ],
+            [
+              -73.9836124,
+              40.7122332
+            ],
+            [
+              -73.9835955,
+              40.7121132
+            ],
+            [
+              -73.9835049,
+              40.7121206
+            ],
+            [
+              -73.9834914,
+              40.7120255
+            ],
+            [
+              -73.9833741,
+              40.7120351
+            ],
+            [
+              -73.9833989,
+              40.7122104
+            ],
+            [
+              -73.983504,
+              40.7122018
+            ],
+            [
+              -73.983512,
+              40.7122587
+            ],
+            [
+              -73.9834896,
+              40.7122606
+            ],
+            [
+              -73.9834855,
+              40.7122666
+            ],
+            [
+              -73.9834848,
+              40.7122735
+            ],
+            [
+              -73.9834874,
+              40.7122795
+            ],
+            [
+              -73.9834934,
+              40.7122848
+            ],
+            [
+              -73.9835156,
+              40.7122827
+            ],
+            [
+              -73.9835235,
+              40.7123397
+            ],
+            [
+              -73.9834184,
+              40.7123483
+            ],
+            [
+              -73.9834428,
+              40.7125214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "714b9002-6fa8-4297-9137-9b0f00783a1f",
+        "bbox": {
+          "xmin": -73.98365020751953,
+          "xmax": -73.98336791992188,
+          "ymin": 40.7120246887207,
+          "ymax": 40.7125244140625
+        },
+        "version": 2,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w317247978@1",
+            "update_time": "2014-12-14T19:35:11.000Z",
+            "confidence": null,
+            "between": null
+          },
+          {
+            "property": "properties/height",
+            "dataset": "Microsoft ML Buildings",
+            "record_id": null,
+            "update_time": null,
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 13.220806121826172,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9831303,
+              40.7115547
+            ],
+            [
+              -73.9829784,
+              40.7114352
+            ],
+            [
+              -73.9828949,
+              40.7114967
+            ],
+            [
+              -73.9829746,
+              40.7115594
+            ],
+            [
+              -73.9828995,
+              40.7116147
+            ],
+            [
+              -73.9830079,
+              40.7116999
+            ],
+            [
+              -73.9829286,
+              40.7117583
+            ],
+            [
+              -73.9830118,
+              40.7118237
+            ],
+            [
+              -73.982936,
+              40.7118794
+            ],
+            [
+              -73.9830363,
+              40.7119583
+            ],
+            [
+              -73.9829542,
+              40.7120187
+            ],
+            [
+              -73.983034,
+              40.7120815
+            ],
+            [
+              -73.9829586,
+              40.712137
+            ],
+            [
+              -73.9831044,
+              40.7122517
+            ],
+            [
+              -73.9831869,
+              40.7121911
+            ],
+            [
+              -73.9831146,
+              40.7121342
+            ],
+            [
+              -73.9831897,
+              40.712079
+            ],
+            [
+              -73.9830842,
+              40.711996
+            ],
+            [
+              -73.9831662,
+              40.7119357
+            ],
+            [
+              -73.9830891,
+              40.711875
+            ],
+            [
+              -73.9831652,
+              40.711819
+            ],
+            [
+              -73.9830508,
+              40.7117289
+            ],
+            [
+              -73.983131,
+              40.7116698
+            ],
+            [
+              -73.9830551,
+              40.7116101
+            ],
+            [
+              -73.9831303,
+              40.7115547
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2d2b8d13-07f0-47b6-8197-6ed0cec44ee7",
+        "bbox": {
+          "xmin": -73.98319244384766,
+          "xmax": -73.98289489746094,
+          "ymin": 40.71143341064453,
+          "ymax": 40.71225357055664
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267644@2",
+            "update_time": "2014-12-14T19:35:15.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.982712,
+              40.7115058
+            ],
+            [
+              -73.9826142,
+              40.7114588
+            ],
+            [
+              -73.9826129,
+              40.7114603
+            ],
+            [
+              -73.9824968,
+              40.7116002
+            ],
+            [
+              -73.9825846,
+              40.7116424
+            ],
+            [
+              -73.9825244,
+              40.7117149
+            ],
+            [
+              -73.9826173,
+              40.7117595
+            ],
+            [
+              -73.9825297,
+              40.7118649
+            ],
+            [
+              -73.9826175,
+              40.7119071
+            ],
+            [
+              -73.9825582,
+              40.7119785
+            ],
+            [
+              -73.9826533,
+              40.7120242
+            ],
+            [
+              -73.9825712,
+              40.7121231
+            ],
+            [
+              -73.982659,
+              40.7121653
+            ],
+            [
+              -73.9826033,
+              40.7122324
+            ],
+            [
+              -73.9827014,
+              40.7122796
+            ],
+            [
+              -73.9828138,
+              40.7121442
+            ],
+            [
+              -73.9827258,
+              40.7121019
+            ],
+            [
+              -73.982787,
+              40.7120281
+            ],
+            [
+              -73.9826891,
+              40.711981
+            ],
+            [
+              -73.9827669,
+              40.7118873
+            ],
+            [
+              -73.9826826,
+              40.7118468
+            ],
+            [
+              -73.9827458,
+              40.7117707
+            ],
+            [
+              -73.9826521,
+              40.7117257
+            ],
+            [
+              -73.9827373,
+              40.7116231
+            ],
+            [
+              -73.9826496,
+              40.7115809
+            ],
+            [
+              -73.982712,
+              40.7115058
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ce4c8d1b-ed8d-487b-8719-d59f6d55d40c",
+        "bbox": {
+          "xmin": -73.98282623291016,
+          "xmax": -73.98249053955078,
+          "ymin": 40.71145248413086,
+          "ymax": 40.7122802734375
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267649@2",
+            "update_time": "2014-12-14T19:35:15.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9821383,
+              40.711889
+            ],
+            [
+              -73.982229,
+              40.7118827
+            ],
+            [
+              -73.9822402,
+              40.7119757
+            ],
+            [
+              -73.9823561,
+              40.7119677
+            ],
+            [
+              -73.9823351,
+              40.711793
+            ],
+            [
+              -73.9822307,
+              40.7118002
+            ],
+            [
+              -73.982214,
+              40.711661
+            ],
+            [
+              -73.9823184,
+              40.7116538
+            ],
+            [
+              -73.9822977,
+              40.7114811
+            ],
+            [
+              -73.9821818,
+              40.7114891
+            ],
+            [
+              -73.9821931,
+              40.7115835
+            ],
+            [
+              -73.9821024,
+              40.7115898
+            ],
+            [
+              -73.9821383,
+              40.711889
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ffec7d7c-ad20-48d5-8a51-2913d1bdc157",
+        "bbox": {
+          "xmin": -73.98236846923828,
+          "xmax": -73.98210144042969,
+          "ymin": 40.71147537231445,
+          "ymax": 40.711978912353516
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267639@2",
+            "update_time": "2014-12-14T19:35:11.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9822199,
+              40.7125384
+            ],
+            [
+              -73.9823109,
+              40.7125317
+            ],
+            [
+              -73.9823217,
+              40.7126163
+            ],
+            [
+              -73.9823227,
+              40.7126243
+            ],
+            [
+              -73.9824411,
+              40.7126155
+            ],
+            [
+              -73.9824186,
+              40.7124399
+            ],
+            [
+              -73.982314,
+              40.7124476
+            ],
+            [
+              -73.9822965,
+              40.7123103
+            ],
+            [
+              -73.9824011,
+              40.7123026
+            ],
+            [
+              -73.9823788,
+              40.7121283
+            ],
+            [
+              -73.9822605,
+              40.712137
+            ],
+            [
+              -73.9822724,
+              40.71223
+            ],
+            [
+              -73.9821814,
+              40.7122368
+            ],
+            [
+              -73.9822199,
+              40.7125384
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a6544a5e-f61e-403a-adba-76ac7b8410b8",
+        "bbox": {
+          "xmin": -73.9824447631836,
+          "xmax": -73.982177734375,
+          "ymin": 40.712127685546875,
+          "ymax": 40.71262741088867
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267641@2",
+            "update_time": "2014-12-14T19:35:12.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9836727,
+              40.7126997
+            ],
+            [
+              -73.9835253,
+              40.712586
+            ],
+            [
+              -73.9834429,
+              40.7126478
+            ],
+            [
+              -73.9835175,
+              40.7127054
+            ],
+            [
+              -73.9834446,
+              40.71276
+            ],
+            [
+              -73.9835541,
+              40.7128445
+            ],
+            [
+              -73.9834751,
+              40.7129037
+            ],
+            [
+              -73.9835535,
+              40.7129642
+            ],
+            [
+              -73.9834802,
+              40.7130192
+            ],
+            [
+              -73.9836346,
+              40.7131384
+            ],
+            [
+              -73.9837186,
+              40.7130753
+            ],
+            [
+              -73.9836351,
+              40.7130109
+            ],
+            [
+              -73.9837075,
+              40.7129565
+            ],
+            [
+              -73.9836037,
+              40.7128765
+            ],
+            [
+              -73.983682,
+              40.7128177
+            ],
+            [
+              -73.9835998,
+              40.7127544
+            ],
+            [
+              -73.9836727,
+              40.7126997
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c7102c12-6b51-4a56-8335-9979e32335ba",
+        "bbox": {
+          "xmin": -73.98371887207031,
+          "xmax": -73.98343658447266,
+          "ymin": 40.71258544921875,
+          "ymax": 40.713138580322266
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278268947@2",
+            "update_time": "2014-12-14T19:35:13.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9839144,
+              40.7138184
+            ],
+            [
+              -73.9838514,
+              40.7133128
+            ],
+            [
+              -73.983543,
+              40.7133467
+            ],
+            [
+              -73.9833679,
+              40.7133659
+            ],
+            [
+              -73.9834303,
+              40.7138674
+            ],
+            [
+              -73.9839144,
+              40.7138184
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "7f4ea5ae-024e-4682-ad81-bcb8d34a7343",
+        "bbox": {
+          "xmin": -73.98391723632812,
+          "xmax": -73.98336029052734,
+          "ymin": 40.71330642700195,
+          "ymax": 40.713871002197266
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278256446@2",
+            "update_time": "2014-12-15T12:01:00.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": null,
+        "class": null,
+        "height": 5.1,
+        "names": null,
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#8D5651",
+        "facade_material": null,
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9832179,
+              40.7124115
+            ],
+            [
+              -73.9831192,
+              40.7123645
+            ],
+            [
+              -73.9830082,
+              40.7124996
+            ],
+            [
+              -73.9830968,
+              40.7125417
+            ],
+            [
+              -73.9830353,
+              40.7126165
+            ],
+            [
+              -73.98313,
+              40.7126615
+            ],
+            [
+              -73.9830522,
+              40.7127562
+            ],
+            [
+              -73.9831408,
+              40.7127984
+            ],
+            [
+              -73.9830781,
+              40.7128746
+            ],
+            [
+              -73.983171,
+              40.7129189
+            ],
+            [
+              -73.9830875,
+              40.7130205
+            ],
+            [
+              -73.9831746,
+              40.7130619
+            ],
+            [
+              -73.9831111,
+              40.7131392
+            ],
+            [
+              -73.9832092,
+              40.7131859
+            ],
+            [
+              -73.9833257,
+              40.7130442
+            ],
+            [
+              -73.983237,
+              40.713002
+            ],
+            [
+              -73.9832967,
+              40.7129295
+            ],
+            [
+              -73.9832036,
+              40.7128851
+            ],
+            [
+              -73.9832919,
+              40.7127777
+            ],
+            [
+              -73.983205,
+              40.7127364
+            ],
+            [
+              -73.983263,
+              40.7126657
+            ],
+            [
+              -73.983165,
+              40.7126191
+            ],
+            [
+              -73.9832469,
+              40.7125196
+            ],
+            [
+              -73.9831622,
+              40.7124793
+            ],
+            [
+              -73.9832179,
+              40.7124115
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "90237a6b-f0ae-4c39-b62d-39fd5f1ecbb5",
+        "bbox": {
+          "xmin": -73.98333740234375,
+          "xmax": -73.98300170898438,
+          "ymin": 40.712364196777344,
+          "ymax": 40.713191986083984
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267645@2",
+            "update_time": "2014-12-14T19:35:14.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9828626,
+              40.7125255
+            ],
+            [
+              -73.9827166,
+              40.7124075
+            ],
+            [
+              -73.9826341,
+              40.7124666
+            ],
+            [
+              -73.9827083,
+              40.7125266
+            ],
+            [
+              -73.9826323,
+              40.7125811
+            ],
+            [
+              -73.9827376,
+              40.7126662
+            ],
+            [
+              -73.9826548,
+              40.7127255
+            ],
+            [
+              -73.9827305,
+              40.7127868
+            ],
+            [
+              -73.9826568,
+              40.7128395
+            ],
+            [
+              -73.9827699,
+              40.7129309
+            ],
+            [
+              -73.9826892,
+              40.7129888
+            ],
+            [
+              -73.9827657,
+              40.7130507
+            ],
+            [
+              -73.9826891,
+              40.7131055
+            ],
+            [
+              -73.9828409,
+              40.7132283
+            ],
+            [
+              -73.9829255,
+              40.7131677
+            ],
+            [
+              -73.9828441,
+              40.7131019
+            ],
+            [
+              -73.9829201,
+              40.7130475
+            ],
+            [
+              -73.9828128,
+              40.7129606
+            ],
+            [
+              -73.9828928,
+              40.7129033
+            ],
+            [
+              -73.9828115,
+              40.7128375
+            ],
+            [
+              -73.9828846,
+              40.7127851
+            ],
+            [
+              -73.9827832,
+              40.7127031
+            ],
+            [
+              -73.9828673,
+              40.7126429
+            ],
+            [
+              -73.9827881,
+              40.7125789
+            ],
+            [
+              -73.9828626,
+              40.7125255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "231e62ff-a7d6-4e24-b1ea-d6d32aa0dc24",
+        "bbox": {
+          "xmin": -73.9829330444336,
+          "xmax": -73.98262023925781,
+          "ymin": 40.712406158447266,
+          "ymax": 40.71323013305664
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267646@2",
+            "update_time": "2014-12-14T19:35:15.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.982301,
+              40.7131867
+            ],
+            [
+              -73.9823912,
+              40.7131804
+            ],
+            [
+              -73.9824022,
+              40.7132716
+            ],
+            [
+              -73.9825182,
+              40.7132634
+            ],
+            [
+              -73.982497,
+              40.7130889
+            ],
+            [
+              -73.9823924,
+              40.7130962
+            ],
+            [
+              -73.9823758,
+              40.7129593
+            ],
+            [
+              -73.9824804,
+              40.7129519
+            ],
+            [
+              -73.9824591,
+              40.7127767
+            ],
+            [
+              -73.9823432,
+              40.7127849
+            ],
+            [
+              -73.9823546,
+              40.7128794
+            ],
+            [
+              -73.9822645,
+              40.7128857
+            ],
+            [
+              -73.982301,
+              40.7131867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "45e1754f-8738-4fa7-a82d-2fe9011e7c29",
+        "bbox": {
+          "xmin": -73.9825210571289,
+          "xmax": -73.98226165771484,
+          "ymin": 40.71277618408203,
+          "ymax": 40.71327209472656
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267638@2",
+            "update_time": "2014-12-14T19:35:12.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9832878,
+              40.7135879
+            ],
+            [
+              -73.9832761,
+              40.7134895
+            ],
+            [
+              -73.9829368,
+              40.7135128
+            ],
+            [
+              -73.9829484,
+              40.7136111
+            ],
+            [
+              -73.9830442,
+              40.7136045
+            ],
+            [
+              -73.9832418,
+              40.713591
+            ],
+            [
+              -73.9832878,
+              40.7135879
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "c76d1112-8014-4c93-b1e5-083b8d80afbf",
+        "bbox": {
+          "xmin": -73.9832992553711,
+          "xmax": -73.9829330444336,
+          "ymin": 40.71348571777344,
+          "ymax": 40.7136116027832
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278256448@1",
+            "update_time": "2020-12-29T20:31:53.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": null,
+        "class": null,
+        "height": 5.9,
+        "names": null,
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9826289,
+              40.7136499
+            ],
+            [
+              -73.9827338,
+              40.7136421
+            ],
+            [
+              -73.9827514,
+              40.7137796
+            ],
+            [
+              -73.9827336,
+              40.7137809
+            ],
+            [
+              -73.9826466,
+              40.7137874
+            ],
+            [
+              -73.982669,
+              40.7139614
+            ],
+            [
+              -73.9827874,
+              40.7139526
+            ],
+            [
+              -73.9827755,
+              40.71386
+            ],
+            [
+              -73.9828657,
+              40.7138533
+            ],
+            [
+              -73.9828269,
+              40.713552
+            ],
+            [
+              -73.9827367,
+              40.7135587
+            ],
+            [
+              -73.9827247,
+              40.7134652
+            ],
+            [
+              -73.9826063,
+              40.713474
+            ],
+            [
+              -73.9826289,
+              40.7136499
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "19818a19-4f7f-4354-8eb9-5e90bcff47b2",
+        "bbox": {
+          "xmin": -73.98287200927734,
+          "xmax": -73.98260498046875,
+          "ymin": 40.71345901489258,
+          "ymax": 40.71396255493164
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278256436@3",
+            "update_time": "2020-05-08T19:14:27.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9822553,
+              40.7138967
+            ],
+            [
+              -73.9823457,
+              40.7138901
+            ],
+            [
+              -73.9823575,
+              40.7139844
+            ],
+            [
+              -73.9824753,
+              40.7139758
+            ],
+            [
+              -73.9824533,
+              40.7138001
+            ],
+            [
+              -73.9823504,
+              40.7138075
+            ],
+            [
+              -73.9823331,
+              40.7136697
+            ],
+            [
+              -73.9824361,
+              40.7136623
+            ],
+            [
+              -73.9824141,
+              40.7134875
+            ],
+            [
+              -73.9822981,
+              40.7134959
+            ],
+            [
+              -73.9823099,
+              40.7135901
+            ],
+            [
+              -73.9822178,
+              40.7135968
+            ],
+            [
+              -73.9822553,
+              40.7138967
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "59cdddce-117e-4d36-bfe0-57fdc9ee0348",
+        "bbox": {
+          "xmin": -73.98248291015625,
+          "xmax": -73.98221588134766,
+          "ymin": 40.71348571777344,
+          "ymax": 40.713985443115234
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278256435@2",
+            "update_time": "2014-12-14T20:04:49.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9816152,
+              40.7117056
+            ],
+            [
+              -73.9817188,
+              40.7116983
+            ],
+            [
+              -73.9817303,
+              40.7117925
+            ],
+            [
+              -73.9817356,
+              40.7118362
+            ],
+            [
+              -73.981632,
+              40.7118435
+            ],
+            [
+              -73.9816534,
+              40.7120185
+            ],
+            [
+              -73.9817712,
+              40.7120102
+            ],
+            [
+              -73.9817597,
+              40.7119155
+            ],
+            [
+              -73.9818489,
+              40.7119092
+            ],
+            [
+              -73.9818123,
+              40.7116095
+            ],
+            [
+              -73.9817231,
+              40.7116158
+            ],
+            [
+              -73.9817117,
+              40.7115221
+            ],
+            [
+              -73.9815938,
+              40.7115304
+            ],
+            [
+              -73.9816152,
+              40.7117056
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "1c99f25e-8d0b-41ff-bfc0-46358910e991",
+        "bbox": {
+          "xmin": -73.98184967041016,
+          "xmax": -73.9815902709961,
+          "ymin": 40.71152114868164,
+          "ymax": 40.7120246887207
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267643@2",
+            "update_time": "2014-12-14T19:35:13.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.980873,
+              40.7110566
+            ],
+            [
+              -73.980683,
+              40.71107
+            ],
+            [
+              -73.9806966,
+              40.7111817
+            ],
+            [
+              -73.9807292,
+              40.7114485
+            ],
+            [
+              -73.9809192,
+              40.711435
+            ],
+            [
+              -73.9809045,
+              40.7113147
+            ],
+            [
+              -73.9810787,
+              40.7113039
+            ],
+            [
+              -73.981061,
+              40.7111638
+            ],
+            [
+              -73.9808876,
+              40.7111761
+            ],
+            [
+              -73.980873,
+              40.7110566
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "2f8795e5-c9e0-4f5f-aa17-687ba4a3ebba",
+        "bbox": {
+          "xmin": -73.9810791015625,
+          "xmax": -73.98068237304688,
+          "ymin": 40.711055755615234,
+          "ymax": 40.711448669433594
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278268955@1",
+            "update_time": "2023-03-10T00:43:24.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": null,
+        "class": null,
+        "height": 26.8,
+        "names": null,
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9810094,
+              40.7116268
+            ],
+            [
+              -73.9809108,
+              40.7115766
+            ],
+            [
+              -73.9808009,
+              40.7117016
+            ],
+            [
+              -73.9807872,
+              40.7117172
+            ],
+            [
+              -73.9808728,
+              40.7117608
+            ],
+            [
+              -73.9808109,
+              40.7118311
+            ],
+            [
+              -73.980902,
+              40.7118775
+            ],
+            [
+              -73.9808155,
+              40.7119759
+            ],
+            [
+              -73.9809015,
+              40.7120197
+            ],
+            [
+              -73.9808429,
+              40.7120862
+            ],
+            [
+              -73.9809419,
+              40.7121367
+            ],
+            [
+              -73.9810604,
+              40.7120019
+            ],
+            [
+              -73.9809744,
+              40.7119581
+            ],
+            [
+              -73.9810387,
+              40.711885
+            ],
+            [
+              -73.9809482,
+              40.7118389
+            ],
+            [
+              -73.9810299,
+              40.711746
+            ],
+            [
+              -73.9809433,
+              40.7117019
+            ],
+            [
+              -73.9810094,
+              40.7116268
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "a39f8bbb-280a-4cd3-9100-03af0bffc227",
+        "bbox": {
+          "xmin": -73.98106384277344,
+          "xmax": -73.98078155517578,
+          "ymin": 40.711570739746094,
+          "ymax": 40.71214294433594
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278269337@2",
+            "update_time": "2014-12-14T19:35:14.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9814275,
+              40.7116761
+            ],
+            [
+              -73.9812751,
+              40.711552
+            ],
+            [
+              -73.9812523,
+              40.7115682
+            ],
+            [
+              -73.9811896,
+              40.7116129
+            ],
+            [
+              -73.9812706,
+              40.7116788
+            ],
+            [
+              -73.9811956,
+              40.7117322
+            ],
+            [
+              -73.9813023,
+              40.7118191
+            ],
+            [
+              -73.9812221,
+              40.7118761
+            ],
+            [
+              -73.9813032,
+              40.7119421
+            ],
+            [
+              -73.9812282,
+              40.7119955
+            ],
+            [
+              -73.9813284,
+              40.712077
+            ],
+            [
+              -73.9812448,
+              40.7121365
+            ],
+            [
+              -73.9813238,
+              40.7122008
+            ],
+            [
+              -73.9812495,
+              40.7122536
+            ],
+            [
+              -73.9813935,
+              40.7123708
+            ],
+            [
+              -73.9814787,
+              40.7123102
+            ],
+            [
+              -73.9814087,
+              40.7122533
+            ],
+            [
+              -73.9814815,
+              40.7122016
+            ],
+            [
+              -73.9813757,
+              40.7121155
+            ],
+            [
+              -73.9814603,
+              40.7120553
+            ],
+            [
+              -73.9813849,
+              40.7119939
+            ],
+            [
+              -73.9814612,
+              40.7119396
+            ],
+            [
+              -73.9813491,
+              40.7118484
+            ],
+            [
+              -73.9814283,
+              40.711792
+            ],
+            [
+              -73.9813519,
+              40.7117299
+            ],
+            [
+              -73.9814275,
+              40.7116761
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "757ed8c4-c366-4c0f-a5fe-6457a56b5294",
+        "bbox": {
+          "xmin": -73.98148345947266,
+          "xmax": -73.98118591308594,
+          "ymin": 40.711551666259766,
+          "ymax": 40.712371826171875
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267648@2",
+            "update_time": "2014-12-14T19:35:15.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9816947,
+              40.7123546
+            ],
+            [
+              -73.981799,
+              40.7123474
+            ],
+            [
+              -73.9818154,
+              40.7124838
+            ],
+            [
+              -73.9817111,
+              40.712491
+            ],
+            [
+              -73.9817322,
+              40.7126671
+            ],
+            [
+              -73.9818535,
+              40.7126587
+            ],
+            [
+              -73.9818422,
+              40.7125639
+            ],
+            [
+              -73.9819299,
+              40.7125578
+            ],
+            [
+              -73.9818939,
+              40.7122572
+            ],
+            [
+              -73.9818032,
+              40.7122635
+            ],
+            [
+              -73.981792,
+              40.7121701
+            ],
+            [
+              -73.9816736,
+              40.7121783
+            ],
+            [
+              -73.9816947,
+              40.7123546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cb4580d9-2579-4a2e-a34d-c32695fd44be",
+        "bbox": {
+          "xmin": -73.98193359375,
+          "xmax": -73.9816665649414,
+          "ymin": 40.7121696472168,
+          "ymax": 40.71267318725586
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267640@3",
+            "update_time": "2014-12-14T19:45:11.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9808996,
+              40.7126588
+            ],
+            [
+              -73.9809909,
+              40.7126524
+            ],
+            [
+              -73.9810024,
+              40.7127485
+            ],
+            [
+              -73.9811206,
+              40.7127403
+            ],
+            [
+              -73.9810994,
+              40.7125634
+            ],
+            [
+              -73.9809939,
+              40.7125708
+            ],
+            [
+              -73.9809869,
+              40.7125126
+            ],
+            [
+              -73.9810093,
+              40.7125111
+            ],
+            [
+              -73.9810136,
+              40.7125052
+            ],
+            [
+              -73.9810146,
+              40.7124983
+            ],
+            [
+              -73.9810122,
+              40.7124923
+            ],
+            [
+              -73.9810064,
+              40.7124869
+            ],
+            [
+              -73.9809841,
+              40.7124885
+            ],
+            [
+              -73.9809771,
+              40.7124305
+            ],
+            [
+              -73.9810826,
+              40.7124231
+            ],
+            [
+              -73.9810621,
+              40.712252
+            ],
+            [
+              -73.9809439,
+              40.7122602
+            ],
+            [
+              -73.980955,
+              40.7123529
+            ],
+            [
+              -73.9808637,
+              40.7123593
+            ],
+            [
+              -73.9808996,
+              40.7126588
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "65b0cbac-e3fa-4969-9092-62df31ab5c64",
+        "bbox": {
+          "xmin": -73.98113250732422,
+          "xmax": -73.9808578491211,
+          "ymin": 40.71224594116211,
+          "ymax": 40.71274948120117
+        },
+        "version": 2,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278269338@2",
+            "update_time": "2014-12-14T19:35:14.000Z",
+            "confidence": null,
+            "between": null
+          },
+          {
+            "property": "properties/height",
+            "dataset": "Microsoft ML Buildings",
+            "record_id": null,
+            "update_time": null,
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 13.029250144958496,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9804143,
+              40.7124789
+            ],
+            [
+              -73.9805186,
+              40.7124719
+            ],
+            [
+              -73.9805344,
+              40.7126088
+            ],
+            [
+              -73.9804306,
+              40.7126158
+            ],
+            [
+              -73.980451,
+              40.7127915
+            ],
+            [
+              -73.9805706,
+              40.7127835
+            ],
+            [
+              -73.9805598,
+              40.7126897
+            ],
+            [
+              -73.9806497,
+              40.7126837
+            ],
+            [
+              -73.9806147,
+              40.7123809
+            ],
+            [
+              -73.9805248,
+              40.7123869
+            ],
+            [
+              -73.9805142,
+              40.7122951
+            ],
+            [
+              -73.980394,
+              40.7123031
+            ],
+            [
+              -73.9804143,
+              40.7124789
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "79f47532-c8fe-4e30-8828-ebc4aabdf769",
+        "bbox": {
+          "xmin": -73.98065185546875,
+          "xmax": -73.98039245605469,
+          "ymin": 40.7122917175293,
+          "ymax": 40.71279525756836
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278269549@3",
+            "update_time": "2014-12-14T19:45:11.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9817747,
+              40.7130036
+            ],
+            [
+              -73.9818807,
+              40.7129959
+            ],
+            [
+              -73.9818978,
+              40.7131323
+            ],
+            [
+              -73.9817911,
+              40.7131401
+            ],
+            [
+              -73.9818132,
+              40.7133156
+            ],
+            [
+              -73.981934,
+              40.7133068
+            ],
+            [
+              -73.9819223,
+              40.7132136
+            ],
+            [
+              -73.9820115,
+              40.7132071
+            ],
+            [
+              -73.9819737,
+              40.712906
+            ],
+            [
+              -73.9818829,
+              40.7129126
+            ],
+            [
+              -73.9818711,
+              40.7128193
+            ],
+            [
+              -73.9817526,
+              40.7128279
+            ],
+            [
+              -73.9817747,
+              40.7130036
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "01f37e33-6081-43e6-9c32-538251fd5543",
+        "bbox": {
+          "xmin": -73.98201751708984,
+          "xmax": -73.98175048828125,
+          "ymin": 40.71281814575195,
+          "ymax": 40.713321685791016
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267642@3",
+            "update_time": "2014-12-14T19:45:11.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.981514,
+              40.7126055
+            ],
+            [
+              -73.9814136,
+              40.7125568
+            ],
+            [
+              -73.9813005,
+              40.7126921
+            ],
+            [
+              -73.9813882,
+              40.7127346
+            ],
+            [
+              -73.9813264,
+              40.7128086
+            ],
+            [
+              -73.9814203,
+              40.712854
+            ],
+            [
+              -73.981341,
+              40.7129489
+            ],
+            [
+              -73.9814292,
+              40.7129916
+            ],
+            [
+              -73.9813647,
+              40.7130687
+            ],
+            [
+              -73.9814576,
+              40.7131136
+            ],
+            [
+              -73.9813737,
+              40.7132139
+            ],
+            [
+              -73.9814606,
+              40.713256
+            ],
+            [
+              -73.9813965,
+              40.7133327
+            ],
+            [
+              -73.981496,
+              40.7133809
+            ],
+            [
+              -73.9816155,
+              40.713238
+            ],
+            [
+              -73.9815288,
+              40.713196
+            ],
+            [
+              -73.9815895,
+              40.7131234
+            ],
+            [
+              -73.9814972,
+              40.7130787
+            ],
+            [
+              -73.9815861,
+              40.7129725
+            ],
+            [
+              -73.9814984,
+              40.71293
+            ],
+            [
+              -73.9815577,
+              40.712859
+            ],
+            [
+              -73.981463,
+              40.7128131
+            ],
+            [
+              -73.9815458,
+              40.7127141
+            ],
+            [
+              -73.9814585,
+              40.7126718
+            ],
+            [
+              -73.981514,
+              40.7126055
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "64eb65c2-6808-40bc-a862-5b99e91e7dd4",
+        "bbox": {
+          "xmin": -73.98162078857422,
+          "xmax": -73.9813003540039,
+          "ymin": 40.712554931640625,
+          "ymax": 40.713382720947266
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278267647@2",
+            "update_time": "2014-12-14T19:35:14.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9811741,
+              40.7129842
+            ],
+            [
+              -73.9810272,
+              40.7128686
+            ],
+            [
+              -73.981014,
+              40.7128784
+            ],
+            [
+              -73.9809431,
+              40.7129306
+            ],
+            [
+              -73.981016,
+              40.712988
+            ],
+            [
+              -73.9809413,
+              40.713043
+            ],
+            [
+              -73.9810492,
+              40.713128
+            ],
+            [
+              -73.9809705,
+              40.7131859
+            ],
+            [
+              -73.9810471,
+              40.7132462
+            ],
+            [
+              -73.9809729,
+              40.7133008
+            ],
+            [
+              -73.9811279,
+              40.7134227
+            ],
+            [
+              -73.9812129,
+              40.7133601
+            ],
+            [
+              -73.9811307,
+              40.7132955
+            ],
+            [
+              -73.9812048,
+              40.7132409
+            ],
+            [
+              -73.9811016,
+              40.7131598
+            ],
+            [
+              -73.9811803,
+              40.7131019
+            ],
+            [
+              -73.9811001,
+              40.7130387
+            ],
+            [
+              -73.9811741,
+              40.7129842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "8e1d3dc3-ec03-4343-b23d-9c853bb917b0",
+        "bbox": {
+          "xmin": -73.98121643066406,
+          "xmax": -73.9809341430664,
+          "ymin": 40.712867736816406,
+          "ymax": 40.71342849731445
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278269336@2",
+            "update_time": "2014-12-14T19:35:14.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.980493,
+              40.7131799
+            ],
+            [
+              -73.9805992,
+              40.7131727
+            ],
+            [
+              -73.9806152,
+              40.7133084
+            ],
+            [
+              -73.9805089,
+              40.7133157
+            ],
+            [
+              -73.980529,
+              40.7134865
+            ],
+            [
+              -73.9806501,
+              40.7134783
+            ],
+            [
+              -73.9806398,
+              40.7133902
+            ],
+            [
+              -73.9807295,
+              40.7133841
+            ],
+            [
+              -73.980694,
+              40.7130821
+            ],
+            [
+              -73.9806043,
+              40.7130882
+            ],
+            [
+              -73.9805933,
+              40.7129947
+            ],
+            [
+              -73.9804722,
+              40.713003
+            ],
+            [
+              -73.980493,
+              40.7131799
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "7f72e2ee-ed74-4060-ae00-6e0a0dd1aad2",
+        "bbox": {
+          "xmin": -73.9807357788086,
+          "xmax": -73.98046875,
+          "ymin": 40.71299362182617,
+          "ymax": 40.7134895324707
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278269546@2",
+            "update_time": "2014-12-14T19:35:12.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 17.5,
+        "names": null,
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 6,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#BBA18A",
+        "facade_material": "brick",
+        "roof_material": "concrete",
+        "roof_shape": "flat",
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": "#A8A296",
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9809538,
+              40.7137174
+            ],
+            [
+              -73.9809591,
+              40.7137171
+            ],
+            [
+              -73.9809675,
+              40.7137967
+            ],
+            [
+              -73.9809725,
+              40.7138439
+            ],
+            [
+              -73.9809672,
+              40.7138442
+            ],
+            [
+              -73.9809752,
+              40.7139192
+            ],
+            [
+              -73.9811802,
+              40.7139066
+            ],
+            [
+              -73.9811601,
+              40.7137177
+            ],
+            [
+              -73.9812112,
+              40.7137123
+            ],
+            [
+              -73.9812151,
+              40.7137478
+            ],
+            [
+              -73.9813004,
+              40.7137381
+            ],
+            [
+              -73.9813025,
+              40.7137531
+            ],
+            [
+              -73.9812945,
+              40.7137536
+            ],
+            [
+              -73.9812974,
+              40.713781
+            ],
+            [
+              -73.9813054,
+              40.7137805
+            ],
+            [
+              -73.9813083,
+              40.7138082
+            ],
+            [
+              -73.9813003,
+              40.7138086
+            ],
+            [
+              -73.9813027,
+              40.7138315
+            ],
+            [
+              -73.9813107,
+              40.713831
+            ],
+            [
+              -73.9813131,
+              40.7138533
+            ],
+            [
+              -73.9816323,
+              40.713824
+            ],
+            [
+              -73.9816293,
+              40.7137964
+            ],
+            [
+              -73.9816341,
+              40.7137961
+            ],
+            [
+              -73.9816317,
+              40.713774
+            ],
+            [
+              -73.981624,
+              40.7137744
+            ],
+            [
+              -73.9816208,
+              40.713744
+            ],
+            [
+              -73.9816256,
+              40.7137437
+            ],
+            [
+              -73.9816236,
+              40.713724
+            ],
+            [
+              -73.9816164,
+              40.7137245
+            ],
+            [
+              -73.9816144,
+              40.7137026
+            ],
+            [
+              -73.9816927,
+              40.7136938
+            ],
+            [
+              -73.9816857,
+              40.7136616
+            ],
+            [
+              -73.9817393,
+              40.7136559
+            ],
+            [
+              -73.9817563,
+              40.7138066
+            ],
+            [
+              -73.98186,
+              40.7137973
+            ],
+            [
+              -73.9818335,
+              40.7135478
+            ],
+            [
+              -73.9809462,
+              40.7136455
+            ],
+            [
+              -73.9809538,
+              40.7137174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "37737434-68e1-4185-b518-73389ae11ae5",
+        "bbox": {
+          "xmin": -73.98187255859375,
+          "xmax": -73.9809341430664,
+          "ymin": 40.71354675292969,
+          "ymax": 40.71392059326172
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w278256440@4",
+            "update_time": "2020-12-29T19:53:49.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "education",
+        "class": "school",
+        "height": 30.9,
+        "names": {
+          "primary": "Junior High School 12",
+          "common": null,
+          "rules": [
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "Junior High School 12",
+              "between": null,
+              "side": null
+            }
+          ]
+        },
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    }
+  ],
+  "numberMatched": 27,
+  "numberReturned": 27,
+  "limit": 100,
+  "offset": 0
+}

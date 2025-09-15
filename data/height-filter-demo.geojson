@@ -1,0 +1,906 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9853568,
+              40.7558917
+            ],
+            [
+              -73.9855693,
+              40.7556002
+            ],
+            [
+              -73.9855115,
+              40.7555764
+            ],
+            [
+              -73.9846075,
+              40.7551958
+            ],
+            [
+              -73.9842172,
+              40.7550316
+            ],
+            [
+              -73.9838616,
+              40.7555108
+            ],
+            [
+              -73.9840752,
+              40.7556013
+            ],
+            [
+              -73.9851597,
+              40.7560608
+            ],
+            [
+              -73.9852163,
+              40.7560845
+            ],
+            [
+              -73.9853568,
+              40.7558917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "62ebe85a-f340-4784-820d-d02cefaaa0f9",
+        "bbox": {
+          "xmin": -73.9855728149414,
+          "xmax": -73.98385620117188,
+          "ymin": 40.75503158569336,
+          "ymax": 40.75608825683594
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w86121621@34",
+            "update_time": "2023-08-22T03:35:49.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "commercial",
+        "class": "commercial",
+        "height": 366.0,
+        "names": {
+          "primary": "Bank of America Tower",
+          "common": [
+            [
+              "ru",
+              "Башня Банка Америки"
+            ],
+            [
+              "uk",
+              "Башта Банку Америки"
+            ]
+          ],
+          "rules": null
+        },
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": null,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9787082,
+              40.7533484
+            ],
+            [
+              -73.97905,
+              40.7528733
+            ],
+            [
+              -73.978687,
+              40.7527234
+            ],
+            [
+              -73.9783765,
+              40.7525951
+            ],
+            [
+              -73.9780346,
+              40.7530702
+            ],
+            [
+              -73.9782533,
+              40.7531605
+            ],
+            [
+              -73.9787082,
+              40.7533484
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "9db46552-ccf9-4f62-89eb-3e60fcdac5ca",
+        "bbox": {
+          "xmin": -73.97905731201172,
+          "xmax": -73.97802734375,
+          "ymin": 40.752593994140625,
+          "ymax": 40.75334930419922
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w265875648@7",
+            "update_time": "2024-03-06T21:03:52.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "commercial",
+        "class": "office",
+        "height": 397.0,
+        "names": {
+          "primary": "One Vanderbilt",
+          "common": [
+            [
+              "en",
+              "One Vanderbilt"
+            ]
+          ],
+          "rules": null
+        },
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": 67,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9764061,
+              40.7563914
+            ],
+            [
+              -73.9766607,
+              40.7560426
+            ],
+            [
+              -73.976536,
+              40.7559904
+            ],
+            [
+              -73.9765463,
+              40.7559763
+            ],
+            [
+              -73.9764197,
+              40.7559233
+            ],
+            [
+              -73.9764299,
+              40.7559093
+            ],
+            [
+              -73.9763006,
+              40.7558554
+            ],
+            [
+              -73.9763124,
+              40.7558391
+            ],
+            [
+              -73.976188,
+              40.7557873
+            ],
+            [
+              -73.976196,
+              40.7557762
+            ],
+            [
+              -73.9760697,
+              40.7557237
+            ],
+            [
+              -73.9760625,
+              40.7557337
+            ],
+            [
+              -73.9759326,
+              40.7556798
+            ],
+            [
+              -73.9759225,
+              40.7556938
+            ],
+            [
+              -73.9757972,
+              40.7556418
+            ],
+            [
+              -73.9757873,
+              40.7556555
+            ],
+            [
+              -73.9756628,
+              40.7556039
+            ],
+            [
+              -73.9756527,
+              40.7556179
+            ],
+            [
+              -73.9755254,
+              40.7555652
+            ],
+            [
+              -73.9752746,
+              40.7559128
+            ],
+            [
+              -73.9754044,
+              40.7559665
+            ],
+            [
+              -73.975394,
+              40.755981
+            ],
+            [
+              -73.9755182,
+              40.7560324
+            ],
+            [
+              -73.9755068,
+              40.7560483
+            ],
+            [
+              -73.9756314,
+              40.7560998
+            ],
+            [
+              -73.97562,
+              40.7561156
+            ],
+            [
+              -73.9757472,
+              40.7561682
+            ],
+            [
+              -73.9757433,
+              40.7561737
+            ],
+            [
+              -73.9758743,
+              40.7562281
+            ],
+            [
+              -73.9758785,
+              40.7562224
+            ],
+            [
+              -73.9760079,
+              40.7562764
+            ],
+            [
+              -73.9760167,
+              40.7562643
+            ],
+            [
+              -73.9761371,
+              40.7563146
+            ],
+            [
+              -73.9761473,
+              40.7563005
+            ],
+            [
+              -73.9762697,
+              40.7563517
+            ],
+            [
+              -73.9762794,
+              40.7563384
+            ],
+            [
+              -73.9764061,
+              40.7563914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "e5eede9f-7aee-4ea8-8b8b-71840ddb232b",
+        "bbox": {
+          "xmin": -73.9766616821289,
+          "xmax": -73.97527313232422,
+          "ymin": 40.75556182861328,
+          "ymax": 40.75639724731445
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w1240347246@1",
+            "update_time": "2024-01-17T03:43:21.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": null,
+        "class": null,
+        "height": 423.0,
+        "names": {
+          "primary": "270 Park Avenue",
+          "common": null,
+          "rules": [
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "JPMorgan Chase Building",
+              "between": null,
+              "side": null
+            }
+          ]
+        },
+        "has_parts": false,
+        "is_underground": false,
+        "num_floors": 60,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": "#745E20",
+        "facade_material": "glass",
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9721709,
+              40.7616048
+            ],
+            [
+              -73.9720736,
+              40.7615654
+            ],
+            [
+              -73.9719248,
+              40.7615042
+            ],
+            [
+              -73.9717747,
+              40.7614425
+            ],
+            [
+              -73.9717654,
+              40.7614554
+            ],
+            [
+              -73.9717012,
+              40.761545
+            ],
+            [
+              -73.971615,
+              40.7616653
+            ],
+            [
+              -73.971529,
+              40.7617845
+            ],
+            [
+              -73.971926,
+              40.7619495
+            ],
+            [
+              -73.9719447,
+              40.7619235
+            ],
+            [
+              -73.9719532,
+              40.7619117
+            ],
+            [
+              -73.9719715,
+              40.7618863
+            ],
+            [
+              -73.9719914,
+              40.7618585
+            ],
+            [
+              -73.9720265,
+              40.7618098
+            ],
+            [
+              -73.9720431,
+              40.7617867
+            ],
+            [
+              -73.9720615,
+              40.7617614
+            ],
+            [
+              -73.9721039,
+              40.7617022
+            ],
+            [
+              -73.9721018,
+              40.7617013
+            ],
+            [
+              -73.972158,
+              40.7616228
+            ],
+            [
+              -73.9721709,
+              40.7616048
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "d7906682-a554-49c4-8a63-d68523588e3a",
+        "bbox": {
+          "xmin": -73.97218322753906,
+          "xmax": -73.97152709960938,
+          "ymin": 40.761436462402344,
+          "ymax": 40.76195526123047
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w261499924@25",
+            "update_time": "2022-06-15T08:19:29.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "residential",
+        "height": 426.0,
+        "names": {
+          "primary": "432 Park Avenue",
+          "common": [
+            [
+              "en",
+              "432 Park Avenue"
+            ]
+          ],
+          "rules": null
+        },
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 88,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9805426,
+              40.7665227
+            ],
+            [
+              -73.9811604,
+              40.7667831
+            ],
+            [
+              -73.9811885,
+              40.7667445
+            ],
+            [
+              -73.9813347,
+              40.7665441
+            ],
+            [
+              -73.9814245,
+              40.7664201
+            ],
+            [
+              -73.9812796,
+              40.766359
+            ],
+            [
+              -73.9813644,
+              40.7662427
+            ],
+            [
+              -73.980892,
+              40.7660436
+            ],
+            [
+              -73.9808031,
+              40.7661655
+            ],
+            [
+              -73.9807547,
+              40.7662319
+            ],
+            [
+              -73.980752,
+              40.7662355
+            ],
+            [
+              -73.9806147,
+              40.7664238
+            ],
+            [
+              -73.9806021,
+              40.7664411
+            ],
+            [
+              -73.9805867,
+              40.7664622
+            ],
+            [
+              -73.9805848,
+              40.7664648
+            ],
+            [
+              -73.9805704,
+              40.7664846
+            ],
+            [
+              -73.9805426,
+              40.7665227
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "80c3f0b9-16cf-47c3-9e79-fa1e182b470f",
+        "bbox": {
+          "xmin": -73.98143005371094,
+          "xmax": -73.98053741455078,
+          "ymin": 40.76603698730469,
+          "ymax": 40.76678466796875
+        },
+        "version": 1,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w261509934@10",
+            "update_time": "2025-03-04T06:39:53.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 472.0,
+        "names": {
+          "primary": "Central Park Tower",
+          "common": [
+            [
+              "en",
+              "Central Park Tower"
+            ]
+          ],
+          "rules": [
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "Nordstrom Tower",
+              "between": null,
+              "side": null
+            }
+          ]
+        },
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 98,
+        "num_floors_underground": 4,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9776304,
+              40.7648266
+            ],
+            [
+              -73.9777208,
+              40.7647015
+            ],
+            [
+              -73.977573,
+              40.7646402
+            ],
+            [
+              -73.9774719,
+              40.7647802
+            ],
+            [
+              -73.9774621,
+              40.7647937
+            ],
+            [
+              -73.9774524,
+              40.7648072
+            ],
+            [
+              -73.9774438,
+              40.764819
+            ],
+            [
+              -73.9774426,
+              40.7648207
+            ],
+            [
+              -73.9774328,
+              40.7648342
+            ],
+            [
+              -73.977423,
+              40.7648477
+            ],
+            [
+              -73.9774133,
+              40.7648613
+            ],
+            [
+              -73.9774035,
+              40.7648748
+            ],
+            [
+              -73.9773966,
+              40.7648843
+            ],
+            [
+              -73.9773937,
+              40.7648883
+            ],
+            [
+              -73.977384,
+              40.7649018
+            ],
+            [
+              -73.9773742,
+              40.7649153
+            ],
+            [
+              -73.9773644,
+              40.7649288
+            ],
+            [
+              -73.9773547,
+              40.7649424
+            ],
+            [
+              -73.9773302,
+              40.7649762
+            ],
+            [
+              -73.977519,
+              40.7650545
+            ],
+            [
+              -73.9775434,
+              40.7650206
+            ],
+            [
+              -73.9775532,
+              40.7650071
+            ],
+            [
+              -73.977563,
+              40.7649936
+            ],
+            [
+              -73.9775728,
+              40.7649801
+            ],
+            [
+              -73.9775825,
+              40.7649666
+            ],
+            [
+              -73.9775923,
+              40.764953
+            ],
+            [
+              -73.9776021,
+              40.7649395
+            ],
+            [
+              -73.9776118,
+              40.764926
+            ],
+            [
+              -73.9776216,
+              40.7649125
+            ],
+            [
+              -73.9776314,
+              40.764899
+            ],
+            [
+              -73.9776411,
+              40.7648855
+            ],
+            [
+              -73.9776509,
+              40.7648719
+            ],
+            [
+              -73.9776607,
+              40.7648584
+            ],
+            [
+              -73.9776333,
+              40.7648471
+            ],
+            [
+              -73.9776197,
+              40.7648414
+            ],
+            [
+              -73.9776304,
+              40.7648266
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "0413ddc8-2a30-4842-9d17-70d6360db176",
+        "bbox": {
+          "xmin": -73.97772216796875,
+          "xmax": -73.9773178100586,
+          "ymin": 40.7646369934082,
+          "ymax": 40.76506042480469
+        },
+        "version": 2,
+        "sources": [
+          {
+            "property": "",
+            "dataset": "OpenStreetMap",
+            "record_id": "w261504064@9",
+            "update_time": "2025-07-07T18:21:56.000Z",
+            "confidence": null,
+            "between": null
+          }
+        ],
+        "level": null,
+        "subtype": "residential",
+        "class": "apartments",
+        "height": 435.0,
+        "names": {
+          "primary": "Steinway Tower",
+          "common": null,
+          "rules": [
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "Steinway Tower",
+              "between": null,
+              "side": null
+            },
+            {
+              "variant": "alternate",
+              "language": null,
+              "perspectives": null,
+              "value": "The Coffee Stirrer",
+              "between": null,
+              "side": null
+            }
+          ]
+        },
+        "has_parts": true,
+        "is_underground": false,
+        "num_floors": 82,
+        "num_floors_underground": null,
+        "min_height": null,
+        "min_floor": null,
+        "facade_color": null,
+        "facade_material": null,
+        "roof_material": null,
+        "roof_shape": null,
+        "roof_direction": null,
+        "roof_orientation": null,
+        "roof_color": null,
+        "roof_height": null,
+        "theme": "buildings",
+        "type": "building"
+      }
+    }
+  ],
+  "numberMatched": 6,
+  "numberReturned": 6,
+  "limit": 10,
+  "offset": 0
+}
