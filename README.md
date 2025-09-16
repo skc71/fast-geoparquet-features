@@ -11,7 +11,7 @@ A simple GeoParquet feature server built with FastAPI and DuckDB. Query, filter,
 * 🐍 Modern Python stack with FastAPI + async streaming responses
 
 > [!WARNING]
-> This is a tech demo/prototype. Expect breaking changes.
+> This is a tech demo/prototype. Expect bugs and breaking changes.
 
 ## Setup
 
@@ -33,7 +33,7 @@ Here are some examples of querying Overture Foundation's Buildings dataset direc
     * [Result](./data/demo.geojson)
         ![demo](./public/demo.png)
 
-* Bounding box and CQL-Text filter (`height > 350`):
+* Bounding box and CQL2-Text filter (`height > 350`):
 
     ```sh
     $ curl -X 'GET' \
@@ -47,13 +47,8 @@ Here are some examples of querying Overture Foundation's Buildings dataset direc
 ## Notes
 
 * Bounding box filtering requires GeoParquet created with bbox/covering metadata as described in [the v1.1.0 spec](https://geoparquet.org/releases/v1.1.0/)
-* Performance is best with [a spatially sorted GeoParquet](https://cloudnativegeo.org/blog/2025/01/using-duckdbs-hilbert-function-with-geoparquet/)
-* The first query of a large and/or partitioned GeoParquet will take significantly longer than subsequent queries due to the initial read of the Parquet metadata (which DuckDB caches for reuse). For example, the first query of the Overture Buildings dataset after a fresh start takes ~30s. After that, the same query takes ~4s.
-
-## TODOs
-
-* Pagination links in FeatureCollection response
-* Vector tile support. Just waiting on [`ST_AsMVT` support](https://github.com/duckdb/duckdb-spatial/issues/241) to be available in DuckDB spatial extension!
+* Performance is best with [a spatially sorted GeoParquet](https://github.com/opengeospatial/geoparquet/blob/main/format-specs/distributing-geoparquet.md)
+* The first query of a large and/or partitioned GeoParquet will take significantly longer than subsequent queries due to the initial read of the Parquet metadata (which DuckDB caches for reuse). For example, the first query of the Overture Buildings dataset after a fresh start takes ~30s. After that, the same query is signficantly faster.
 
 ## Acknowledgements
 
@@ -61,3 +56,6 @@ This project was inspired by and benefits from some really cool open source proj
 
 * [tipg](https://developmentseed.org/tipg/)
 * [cql2-rs](https://developmentseed.org/cql2-rs/latest/)
+* [duckdb](https://github.com/duckdb/duckdb)
+* [duckdb spatial extension](https://github.com/duckdb/duckdb-spatial)
+* [GeoParquet](https://github.com/opengeospatial/geoparquet)
