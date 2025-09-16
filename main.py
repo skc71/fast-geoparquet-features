@@ -346,8 +346,15 @@ def get_feature_count(
     con: duckdb.DuckDBPyConnection = Depends(duckdb_cursor),
     url: str = Query(),
     filter: str | None = Query(None),
+    filter_lang: FilterLang = Query(default="cql2-text"),
     bbox: Annotated[BBox, str] | None = Depends(parse_bbox),
 ):
-    rel = base_rel(con=con, url=url, bbox=bbox, filter=filter)
+    rel = base_rel(
+        con=con,
+        url=url,
+        bbox=bbox,
+        filter=filter,
+        filter_lang=filter_lang,
+    )
     total = get_count(rel)
     return {"numberMatched": total}
