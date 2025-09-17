@@ -1,13 +1,14 @@
 # `fast-geoparquet-features`
 
-A simple GeoParquet feature server built with FastAPI and DuckDB. Query, filter, and serve vector data straight from GeoParquet in object storage.
+A simple GeoParquet feature + vector tile server built with FastAPI and DuckDB. Query, filter, and serve vector data straight from GeoParquet in object storage.
 
 ✨ Features
 
-* 🚀 Serve GeoParquet directly via HTTP endpoints
+* 🚀 Serve GeoJSON from GeoParquet directly via HTTP requests
 * ⚡ Fast queries with DuckDB (spatial extension enabled)
 * 🗂️ Filter features by bounding box or CQL expressions
 * 🌍 GeoJSON, GeoJSONSeq/ndjson, and CSV output formats supported
+* 🌐 Vector tiles (MVT/PBF) from GeoParquet on-the-fly
 * 🐍 Modern Python stack with FastAPI + async streaming responses
 
 > [!WARNING]
