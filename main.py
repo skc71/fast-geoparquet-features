@@ -446,8 +446,7 @@ async def get_tile(
                     always_xy := true
                 ),
                 ST_Extent(ST_TileEnvelope({z}, {x}, {y}))
-            ),
-            "id": id
+            )
         }}
     )""").fetchone()
 
