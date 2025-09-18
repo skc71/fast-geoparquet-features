@@ -13,3 +13,8 @@ dependencies = [
     "orjson>=3.11.3",
     "pyarrow>=21.0.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+]
