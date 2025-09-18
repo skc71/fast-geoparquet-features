@@ -13,11 +13,11 @@ class BBox(BaseModel):
 
     @classmethod
     def from_str(cls, bbox: str) -> Self:
-        if len((coords := bbox.split(","))) != 4:
+        if len(coords := bbox.split(",")) != 4:
             raise ValueError("bbox must be 4 comma-separated floats")
         else:
             try:
-                xmin, ymin, xmax, ymax = tuple((float(c.strip()) for c in coords))
+                xmin, ymin, xmax, ymax = tuple(float(c.strip()) for c in coords)
             except ValueError:
                 raise ValueError("all bbox values must be floats")
 

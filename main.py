@@ -260,10 +260,8 @@ async def stream_features(
     )
 
     filtered = rel.project(
-        (
-            f"{geom_conversion_func}({geom_column}) {geom_column}, "
-            f"* EXCLUDE ({geom_column})"
-        )
+        f"{geom_conversion_func}({geom_column}) {geom_column}, "
+        f"* EXCLUDE ({geom_column})"
     ).limit(limit, offset=offset)
 
     features = feature_generator(filtered, geom_column)
