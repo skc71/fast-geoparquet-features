@@ -1,0 +1,7 @@
+services:
+  fast-geoparquet-features:
+    build:
+      dockerfile: ./dockerfiles/Dockerfile
+      context: .
+    ports:
+      - "8000:80"

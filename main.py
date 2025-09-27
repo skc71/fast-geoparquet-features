@@ -42,7 +42,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="FastFeatures",
+    title="fast-geoparquet-features",
     lifespan=lifespan,
 )
 
