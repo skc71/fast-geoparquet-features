@@ -8,6 +8,4 @@ RUN uv sync --locked
 
 COPY . .
 
-ENV AWS_REGION=us-west-2
-
 CMD ["uv", "run", "fastapi", "run", "main.py", "--reload", "--port", "80"]

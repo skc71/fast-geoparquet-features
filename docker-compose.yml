@@ -3,5 +3,7 @@ services:
     build:
       dockerfile: ./dockerfiles/Dockerfile
       context: .
+    environment:
+      - AWS_REGION=${AWS_REGION:-us-west-2}
     ports:
       - "8000:80"
