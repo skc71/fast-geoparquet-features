@@ -17,7 +17,7 @@ A simple GeoParquet feature + vector tile server built with FastAPI and DuckDB. 
 ## Setup
 
 * `uv sync`
-* `uv run fastapi dev main.py`
+* `uv run fastapi dev`
 * Open `http://localhost:8000/docs` in your browser to view the interactive Swagger docs
 
 > [!TIP]
@@ -56,7 +56,7 @@ MVT/PBF vector tiles are served from the `/tiles/{z}/{x}/{y}` endpoint. A simple
 
 > [!WARNING]
 > Vector tile generation can be pretty slow (on the order of seconds to tens of seonds), even after the initial metadata scan.
-> Running with multiple workers (e.g., `uv run fastapi run main.py --workers=4`) can improve performance by distributing
+> Running with multiple workers (e.g., `uv run fastapi run --workers=4`) can improve performance by distributing
 > request processing across threads.
 
 * Example: [http://localhost:8000/viewer?url=s3://overturemaps-us-west-2/release/2025-08-20.1/theme=buildings/type=building/*](http://localhost:8000/viewer?url=s3://overturemaps-us-west-2/release/2025-08-20.1/theme=buildings/type=building/*)
