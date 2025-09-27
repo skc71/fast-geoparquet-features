@@ -2,7 +2,7 @@ from typing import Literal, Self
 
 from pydantic import BaseModel
 
-from enums import MediaType
+from app.enums import MediaType
 
 
 class BBox(BaseModel):

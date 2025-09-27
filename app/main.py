@@ -14,8 +14,8 @@ from fastapi.responses import HTMLResponse, StreamingResponse
 from jinja2 import Environment, FileSystemLoader
 from starlette.templating import Jinja2Templates
 
-from enums import MediaType, OutputFormat
-from models import BBox, Link
+from app.enums import MediaType, OutputFormat
+from app.models import BBox, Link
 
 logger = logging.getLogger("uvicorn")
 
@@ -56,7 +56,7 @@ def feature_generator(
     Attempts to parse geometry column as JSON. If an error
     occurs, it is left as string (e.g., WKT for CSV output).
     """
-    for batch in con.arrow(batch_size=100).to_batches():  # type: ignore
+    for batch in con.arrow(batch_size=100):  # type: ignore
         for record in batch.to_pylist():
             if (geometry := record.pop(geom_column, None)) is not None:
                 try:
@@ -154,7 +154,7 @@ def stream_feature_collection(
         .decode()
         .strip("{")
     )
-    yield f"], {metadata}}}".encode()
+    yield f"], {metadata}".encode()
 
 
 def stream_geojsonseq(features: Generator[dict[str, Any]]) -> Generator[bytes]:

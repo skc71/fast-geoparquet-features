@@ -6,6 +6,6 @@ COPY pyproject.toml .
 COPY uv.lock .
 RUN uv sync --locked
 
-COPY . .
+COPY ./app .
 
 CMD ["uv", "run", "fastapi", "run", "main.py", "--port", "8080"]
