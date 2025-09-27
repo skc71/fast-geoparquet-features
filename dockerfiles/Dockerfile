@@ -8,4 +8,4 @@ RUN uv sync --locked
 
 COPY . .
 
-CMD ["uv", "run", "fastapi", "run", "main.py", "--reload", "--port", "80"]
+CMD ["uv", "run", "fastapi", "run", "main.py", "--port", "8080"]
