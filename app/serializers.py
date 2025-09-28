@@ -1,12 +1,9 @@
 import csv
 from collections.abc import Generator
 from typing import Any
-from urllib.parse import urlencode
 
 import orjson
-from fastapi import Request
 
-from app.enums import MediaType
 from app.models import Link
 
 
@@ -17,55 +14,13 @@ def dump_feat(feat: dict[str, Any]) -> bytes:
     )
 
 
-def build_links(
-    request: Request,
-    number_matched: int,
-    limit: int,
-    offset: int,
-) -> list[Link]:
-    params: dict[str, Any] = request.query_params._dict.copy()
-    links = [
-        Link(
-            title="Features",
-            rel="self",
-            href=request.url._url,
-            type=MediaType.GEOJSON,
-        )
-    ]
-
-    base_url = request.url_for("get_features")._url
-
-    if (next_offset := (offset + limit)) < number_matched:
-        params["offset"] = next_offset
-        links.append(
-            Link(
-                title="Next page",
-                rel="next",
-                href=f"{base_url}?{urlencode(params)}",
-                type=MediaType.GEOJSON,
-            )
-        )
-
-    if offset > 0:
-        params["offset"] = max(offset - limit, 0)
-        links.append(
-            Link(
-                title="Previous page",
-                rel="prev",
-                href=f"{base_url}?{urlencode(params)}",
-                type=MediaType.GEOJSON,
-            )
-        )
-
-    return links
-
-
 def stream_feature_collection(
     features: Generator[dict[str, Any]],
     number_matched: int,
+    number_returned: int,
     limit: int,
     offset: int,
-    request: Request,
+    links: list[Link],
 ) -> Generator[bytes]:
     yield b'{"type":"FeatureCollection","features":['
 
@@ -79,13 +34,10 @@ def stream_feature_collection(
         orjson.dumps(
             {
                 "numberMatched": number_matched,
-                "numberReturned": i + 1,
+                "numberReturned": number_returned,
                 "limit": limit,
                 "offset": offset,
-                "links": [
-                    link.model_dump()
-                    for link in build_links(request, number_matched, limit, offset)
-                ],
+                "links": [link.model_dump() for link in links],
             }
         )
         .decode()

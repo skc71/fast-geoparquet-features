@@ -14,7 +14,7 @@ from jinja2 import Environment, FileSystemLoader
 from starlette.templating import Jinja2Templates
 
 from app.enums import MediaType, OutputFormat
-from app.models import BBox
+from app.models import BBox, Link
 from app.serializers import stream_csv, stream_feature_collection, stream_geojsonseq
 
 logger = logging.getLogger("uvicorn")
@@ -114,7 +114,50 @@ FROM read_parquet('{url}')
 
 
 def get_count(rel: duckdb.DuckDBPyRelation) -> int:
-    return (rel.aggregate("COUNT(*) AS total").fetchone() or [0])[0]
+    return (rel.count("*").fetchone() or [0])[0]
+
+
+def build_links(
+    request: Request,
+    number_matched: int,
+    limit: int,
+    offset: int,
+) -> list[Link]:
+    params: dict[str, Any] = request.query_params._dict.copy()
+    links = [
+        Link(
+            title="Features",
+            rel="self",
+            href=request.url._url,
+            type=MediaType.GEOJSON,
+        )
+    ]
+
+    base_url = request.url_for("get_features")._url
+
+    if (next_offset := (offset + limit)) < number_matched:
+        params["offset"] = next_offset
+        links.append(
+            Link(
+                title="Next page",
+                rel="next",
+                href=f"{base_url}?{urlencode(params)}",
+                type=MediaType.GEOJSON,
+            )
+        )
+
+    if offset > 0:
+        params["offset"] = max(offset - limit, 0)
+        links.append(
+            Link(
+                title="Previous page",
+                rel="prev",
+                href=f"{base_url}?{urlencode(params)}",
+                type=MediaType.GEOJSON,
+            )
+        )
+
+    return links
 
 
 async def stream_features(
@@ -152,12 +195,15 @@ async def stream_features(
 
     features = feature_generator(filtered, geom_column)
     if output_format == OutputFormat.GEOJSON or output_format is None:
+        num_returned = get_count(filtered)
+        links = build_links(request, number_matched=total, limit=limit, offset=offset)
         stream = stream_feature_collection(
             features=features,
             number_matched=total,
+            number_returned=num_returned,
             limit=limit,
             offset=offset,
-            request=request,
+            links=links,
         )
     elif output_format in [OutputFormat.GEOJSONSEQ, OutputFormat.NDJSON]:
         stream = stream_geojsonseq(features)
